@@ -8,7 +8,7 @@ const redirectConfig = {
   redirect_uri: 'https://gitlab-deployer.herokuapp.com/redirect'
 }
 const redirectLink = 'https://gitlab.com/oauth/authorize?client_id=' + redirectConfig.web_client_id + '&redirect_uri=' + redirectConfig.redirect_uri + '&response_type=token'
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header"> 
